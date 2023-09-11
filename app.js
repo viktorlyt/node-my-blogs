@@ -11,6 +11,8 @@ const app = express();
 //connect to mongoDB
 const dbURL =
   "mongodb+srv://netviktorlyt:test123@nodetuts.xrxmrto.mongodb.net/node-tuts?retryWrites=true&w=majority";
+
+mongoose.set("strictQuery", true);
 mongoose
   .connect(dbURL)
   .then(() => {
