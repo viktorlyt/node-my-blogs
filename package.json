@@ -1,9 +1,9 @@
 {
   "type": "module",
-  "name": "ninja-tutorial",
+  "name": "node-my-blogs",
   "version": "1.0.0",
   "description": "",
-  "main": "files.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
